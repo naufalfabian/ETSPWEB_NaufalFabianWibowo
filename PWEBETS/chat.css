@@ -6,7 +6,7 @@
 }
 
 .collapsible {
-    background-color:black;
+    background-color:#808080;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -23,7 +23,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color:black;
+    background-color:#808080;
 }
 
 .full-chat-block {
