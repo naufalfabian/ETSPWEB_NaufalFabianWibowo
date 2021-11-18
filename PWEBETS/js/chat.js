@@ -35,8 +35,8 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Halo AutoFamily. Terima kasih telah menghubungi Auto2000. Perkenalkan nama saya CSsupport. Ada yang bisa saya bantu?"
-    let secondMessage = "Terima Kasih"
+    let firstMessage = "Halo AutoFamily. Terima kasih telah menghubungi Auto2000. Perkenalkan nama saya Rendra dari CSsupport. Ada yang bisa saya bantu?"
+    let secondMessage = "Anda bisa mencoba kata kunci seperti : 'cek promo menarik' 'cek servis dan perawatan' 'halo' dan juga 'sampai jumpa' "
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>' + '<p class="botText"><span>' + secondMessage + '</span></p>' ;
 
     let time = getTime();
